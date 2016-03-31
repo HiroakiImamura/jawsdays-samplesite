@@ -10,16 +10,16 @@ dependencies:
 
 test:
   override:
-    - echo "All the tests are passed!!"
+    - echo "All the tests are passed!"
 
 deployment:
   production:
     branch: master
     commands:
-      - aws s3 sync html/ s3://<your s3 bucket>/ --delete
+      - aws s3 sync html/ s3://prod.jaws-imamurahiroaki.jawsdays2016.jp/ --delete
   staging:
     branch: staging
     commands:
-      - aws s3 sync html/ s3://<your s3 bucket>/ --delete
+      - aws s3 sync html/ s3://stg.jaws-imamurahiroaki.jawsdays2016.jp/ --delete
 
 
