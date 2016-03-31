@@ -20,6 +20,6 @@ deployment:
   staging:
     branch: staging
     commands:
-      - aws s3 sync html/ s3://stg.jaws-imamurahiroaki.jawsdays2016.jp/ --delete --debug
+      - aws s3 sync html/ s3://stg.jaws-imamurahiroaki.jawsdays2016.jp/ --delete
 
 
