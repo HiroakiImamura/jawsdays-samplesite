@@ -10,7 +10,7 @@ dependencies:
 
 test:
   override:
-    - echo "All the tests are passed!!"
+    - echo "All the tests are passed!!!"
 
 deployment:
   production:
